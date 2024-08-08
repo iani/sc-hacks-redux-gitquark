@@ -14,7 +14,8 @@ default: (
         'team.core': (
             // GuiHelpers: true
             // Logln: true
-            ,notification: true
+            // ,
+            notification: true
             // ,PopUpTreeMenu2: true
             // ,StringUtils: true
             // ,mcFormat: true
@@ -35,7 +36,8 @@ default: (
         'team.core': (
     //         GuiHelpers: false
     //         ,Logln: false
-            ,notification: false
+            // ,
+            notification: false
     //         ,PopUpTreeMenu2: false
     //         ,StringUtils: false
     //         ,mcFormat: false
