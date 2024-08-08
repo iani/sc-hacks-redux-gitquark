@@ -9,18 +9,18 @@ default: (
     main: (
         'sc-hacks-redux-gitquark': true
     )
-    // ,
-    // submodules: (
-        // 'team.core': (
+    ,
+    submodules: (
+        'team.core': (
             // GuiHelpers: true
             // Logln: true
-            // ,Notification: true
+            ,notification: true
             // ,PopUpTreeMenu2: true
             // ,StringUtils: true
             // ,mcFormat: true
             // ,UserPrefs: true
-        // )
-    // )
+        )
+    )
 ),
 
 '| uninstall all ! this may break other projects |': (
@@ -30,17 +30,17 @@ default: (
     main: (
         'sc-hacks-redux': false
     )
-    // ,
-    // submodules: (
-    //     'team.core': (
+    ,
+    submodules: (
+        'team.core': (
     //         GuiHelpers: false
     //         ,Logln: false
-    //         ,Notification: false
+            ,notification: false
     //         ,PopUpTreeMenu2: false
     //         ,StringUtils: false
     //         ,mcFormat: false
     //         ,UserPrefs: false
-    //     )
-    // )
+        )
+    )
 )
 )
