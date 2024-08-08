@@ -11,15 +11,8 @@ default: (
     )
     ,
     submodules: (
-        'team.core': (
-            // GuiHelpers: true
-            // Logln: true
-            // ,
+        'notification': (
             notification: true
-            // ,PopUpTreeMenu2: true
-            // ,StringUtils: true
-            // ,mcFormat: true
-            // ,UserPrefs: true
         )
     )
 ),
@@ -33,15 +26,8 @@ default: (
     )
     ,
     submodules: (
-        'team.core': (
-    //         GuiHelpers: false
-    //         ,Logln: false
-            // ,
+        'notification': (
             notification: false
-    //         ,PopUpTreeMenu2: false
-    //         ,StringUtils: false
-    //         ,mcFormat: false
-    //         ,UserPrefs: false
         )
     )
 )
