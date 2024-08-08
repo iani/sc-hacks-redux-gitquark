@@ -1549,3 +1549,5 @@ to lang at each beat.
 ** SimpleNumber || \symbol;
 Start or set rate of { Impulse.kr(SimpleNumber) } @>.triggers \symbol;
 ** Array
+
+TEST
