@@ -1,0 +1,3 @@
+[submodule "Quarks/DEPENDENCIES/notification"]
+	path = Quarks/DEPENDENCIES/notification
+	url = git@github.com:iani/Notification.git
