@@ -1,3 +1,6 @@
 [submodule "Quarks/DEPENDENCIES/notification"]
 	path = Quarks/DEPENDENCIES/notification
 	url = git@github.com:iani/Notification.git
+[submodule "team.core"]
+	path = Quarks/DEPENDENCIES/teamCore
+	url = git@gitlab.com:scteam/scteamcore.git
